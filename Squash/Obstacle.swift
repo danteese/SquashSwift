@@ -1,5 +1,5 @@
 //
-//  Racquet.swift
+//  Obstacle.swift
 //  Squash
 //
 //  Created by Dante Bazaldua on 10/14/18.
@@ -8,7 +8,15 @@
 
 import UIKit
 
-class Racquet: UIView {
+class Obstacle: UIView {
+
+    /*
+    // Only override draw() if you perform custom drawing.
+    // An empty implementation adversely affects performance during animation.
+    override func draw(_ rect: CGRect) {
+        // Drawing code
+    }
+    */
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -18,12 +26,5 @@ class Racquet: UIView {
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
-
-    
-    
-//    override func draw(_ rect: CGRect) {
-//
-//    }
-    
 
 }

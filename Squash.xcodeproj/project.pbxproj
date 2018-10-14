@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		530A750B2173ACFF00D95554 /* Racquet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530A750A2173ACFF00D95554 /* Racquet.swift */; };
+		530A750D2173EA4D00D95554 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530A750C2173EA4D00D95554 /* GameModel.swift */; };
+		530A750F2173F1AE00D95554 /* Obstacle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530A750E2173F1AE00D95554 /* Obstacle.swift */; };
 		5392F8EC217232EF00F64712 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5392F8EB217232EF00F64712 /* AppDelegate.swift */; };
 		5392F8EE217232EF00F64712 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5392F8ED217232EF00F64712 /* ViewController.swift */; };
 		5392F8F1217232EF00F64712 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5392F8EF217232EF00F64712 /* Main.storyboard */; };
@@ -37,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		530A750A2173ACFF00D95554 /* Racquet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Racquet.swift; sourceTree = "<group>"; };
+		530A750C2173EA4D00D95554 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		530A750E2173F1AE00D95554 /* Obstacle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Obstacle.swift; sourceTree = "<group>"; };
 		5392F8E8217232EF00F64712 /* Squash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Squash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5392F8EB217232EF00F64712 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5392F8ED217232EF00F64712 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +105,7 @@
 		5392F8EA217232EF00F64712 /* Squash */ = {
 			isa = PBXGroup;
 			children = (
+				530A750C2173EA4D00D95554 /* GameModel.swift */,
 				5392F91B217244DC00F64712 /* BallView.swift */,
 				530A750A2173ACFF00D95554 /* Racquet.swift */,
 				5392F8EB217232EF00F64712 /* AppDelegate.swift */,
@@ -109,6 +114,7 @@
 				5392F8F2217232F100F64712 /* Assets.xcassets */,
 				5392F8F4217232F100F64712 /* LaunchScreen.storyboard */,
 				5392F8F7217232F100F64712 /* Info.plist */,
+				530A750E2173F1AE00D95554 /* Obstacle.swift */,
 			);
 			path = Squash;
 			sourceTree = "<group>";
@@ -262,7 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				530A750D2173EA4D00D95554 /* GameModel.swift in Sources */,
 				5392F91C217244DC00F64712 /* BallView.swift in Sources */,
+				530A750F2173F1AE00D95554 /* Obstacle.swift in Sources */,
 				530A750B2173ACFF00D95554 /* Racquet.swift in Sources */,
 				5392F8EE217232EF00F64712 /* ViewController.swift in Sources */,
 				5392F8EC217232EF00F64712 /* AppDelegate.swift in Sources */,

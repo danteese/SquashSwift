@@ -38,8 +38,8 @@ class BallView: UIView {
 //        print("Real size: W: \(rect.width) H: \(rect.height)")
         
         // Always start on top
-        let radius = 18
-        let centre = CGPoint(x: 0, y: 0)
+        let radius = 15
+        let centre = CGPoint(x: CGFloat(rect.size.width/2), y: CGFloat(rect.size.height/2))
         path.move(to: CGPoint(x: centre.x + CGFloat(radius), y: centre.y))
         path.addArc(withCenter: centre, radius: CGFloat(radius), startAngle: 0, endAngle: CGFloat(Double.pi * 2), clockwise: true)
 
@@ -48,7 +48,7 @@ class BallView: UIView {
         let shapeLayer = CAShapeLayer()
         shapeLayer.path = path.cgPath
 
-        shapeLayer.fillColor = UIColor.black.cgColor
+        shapeLayer.fillColor = UIColor.white.cgColor
         layer.addSublayer(shapeLayer)
     }
  

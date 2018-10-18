@@ -18,13 +18,16 @@ class Obstacle: UIView {
     }
     */
     
-    override init(frame: CGRect) {
+    init(frame: CGRect, color: UIColor) {
         super.init(frame: frame)
-        self.backgroundColor = .white
+        self.backgroundColor = .clear
+        self.layer.borderWidth = 4
+        self.layer.borderColor = color.cgColor
     }
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
+    
 
 }

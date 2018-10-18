@@ -16,6 +16,8 @@ class BallView: UIView {
             setNeedsDisplay() // Cambia el color
         }
     }
+    
+    let shapeLayer = CAShapeLayer()
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -45,12 +47,12 @@ class BallView: UIView {
 
         
         // Idea from: https://stackoverflow.com/questions/29616992/how-do-i-draw-a-circle-in-ios-swift
-        let shapeLayer = CAShapeLayer()
-        shapeLayer.path = path.cgPath
+        self.shapeLayer.path = path.cgPath
 
-        shapeLayer.fillColor = UIColor.white.cgColor
+        self.shapeLayer.fillColor = UIColor.white.cgColor
         layer.addSublayer(shapeLayer)
     }
+
  
     
     
